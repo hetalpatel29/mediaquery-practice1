@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+}
+
+.skillmaindiv {
+    width: 100%;
+    text-align: center;
+}
+
+.skillframe {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0px 10px 0px 10px;
+}
+
+.skillbox {
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.skillsubbox {
+    width: 100%;
+    border: 1px solid gray;
+    color: darkslategrey;
+    border-radius: 10px;
+}
+
+.skillframe .skillbox .skillsubbox i {
+    font-size: 120px;
+    margin-top: 20px;
+}
+
+.skillframe .skillbox .skillsubbox p {
+    text-align: justify;
+    line-height: 1;
+    padding: 5px;
+}
+
+.skillframe .skillbox .skillsubbox h3 {
+    font-size: 25px;
+}
+
+.skillframe h2 {
+    font-size: 40px;
+    color: teal;
+}
+
+.menusection {
+    height: 10px;
+    text-align: left;
+    padding: 20px;
+    background-color: black;
+    vertical-align: middle;
+    line-height: -10px;
+}
+
+.menusection h1 {
+    margin: 0;
+    font-size: 15px;
+    display: inline-block;
+    text-align: left;
+    color: white;
+}
+
+.menudiv {
+    display: inline-block;
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+li {
+    float: left;
+    margin-left: 15px;
+}
+
+.banner {
+    height: 500px;
+    width: 100%;
+    background-image: url(../images/owtbanner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner h4 {
+    color: white;
+    margin: 0;
+    font-size: 50px;
+    padding-top: 170px;
+}
+
+.banner p {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.skillsubbox:hover {
+    color: white!important;
+    background-color: darkslategray;
+}
+
+@media screen and (max-width:768px) {
+    .skillbox {
+        width: 50%;
+    }
+    .skillbox h3 {
+        font-size: 30px;
+    }
+    .banner h4 {
+        font-size: 40px;
+        padding-top: 180px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .skillbox {
+        width: 100%;
+    }
+    .skillbox h3 {
+        font-size: 50px;
+    }
+    .banner h4 {
+        font-size: 25px;
+        padding-top: 180px;
+    }
+    .banner p {
+        font-size: 13px;
+    }
+    .menusection {
+        background-color: black;
+        vertical-align: middle;
+        line-height: 0.5px;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+    ul li {
+        margin: 3px;
+    }
+    .menusection h1 {
+        font-size: 15px;
+    }
+}
